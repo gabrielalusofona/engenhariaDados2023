@@ -1,4 +1,4 @@
-~~## Parte 1
+## Parte 1
 1. Clone o repositório para um diretório local na sua máquina.
 2. Crie um novo branch na sua máquina local com o seu nome seguido de -exercicio2
 3. Vá ao repositório no site do github e edite o arquivo lista-branches.txt com o nome do seu branch e o seu nome.
