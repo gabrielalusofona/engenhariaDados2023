@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 sql = "*"
 pandas = "*"
+jupyter = "*"
 
 [dev-packages]
 
