@@ -1,0 +1,18 @@
+version:                "3"
+services:
+  datascience-notebook:
+      image:            jupyter/datascience-notebook
+      volumes:
+        - ./:/home/jovyan/work
+      ports:
+        - 8888:8888
+  db:
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: ''
+      MYSQL_USER: root
+      MYSQL_PASSWORD: ''
+    volumes:
+      - /data/imdb.sql:/var/lib/mysql/imdb.sql
+    ports:
+      - "3306:3306"
